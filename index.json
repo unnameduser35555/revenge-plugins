@@ -1,0 +1,54 @@
+{
+  "format": 1,
+  "name": "My Plugin Repository",
+  "description": "Example plugin repository from the Revenge plugin template.",
+  "plugins": {
+    "com.example.always-errors": {
+      "name": "Always Errors",
+      "description": "A plugin that always throws errors.",
+      "author": "Your Name",
+      "icon": "CircleErrorIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://unnameduser35555.github.io/revenge-plugins/pool/com.example.always-errors@1.0.0.zip",
+          "sha256": "c6ce94e5cf205d988aa4155062d83023fb2daa68cf899dc359e82e9f2e512995",
+          "size": 548,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    },
+    "com.local.local-message-editor": {
+      "name": "Local Message Editor",
+      "description": "Temporarily edit or hide Discord messages on this device only. Changes are memory-only and disappear after Discord restarts.",
+      "author": "Revenge Community",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://unnameduser35555.github.io/revenge-plugins/pool/com.local.local-message-editor@1.0.0.zip",
+          "sha256": "d93cd3a6b54e58007a6850e8d16c22b1735fc67b1b54a009a5579d69733d34d2",
+          "size": 2227,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    }
+  }
+}
